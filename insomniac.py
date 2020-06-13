@@ -113,16 +113,16 @@ def _parse_arguments():
     parser.add_argument('--bloggers',
                         nargs='+',
                         help='list of usernames with whose followers you want to interact',
-                        metavar=('jonaaperret', 'pintegram_ideas'),
+                        metavar=('username1', 'username2'),
                         default=[])
     parser.add_argument('--likes-count',
                         help='count of likes for each interacted user, 2 by default',
-                        metavar='2',
-                        default=2)
+                        metavar='1',
+                        default=1)
     parser.add_argument('--total-likes-limit',
                         help='limit on total amount of likes during the session, 1000 by default',
-                        metavar='1000',
-                        default=1000)
+                        metavar='10',
+                        default=10)
     parser.add_argument('--interactions',
                         help='number of interactions per each blogger, 100 by default',
                         metavar='100',
