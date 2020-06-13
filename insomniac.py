@@ -113,7 +113,7 @@ def _parse_arguments():
     parser.add_argument('--bloggers',
                         nargs='+',
                         help='list of usernames with whose followers you want to interact',
-                        metavar=('username1', 'username2'),
+                        metavar=('jonaaperret', 'pintegram_ideas'),
                         default=[])
     parser.add_argument('--likes-count',
                         help='count of likes for each interacted user, 2 by default',
